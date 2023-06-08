@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    /* background-color: #2CBA4D; */
+    /* background-image: url("../img/backgrund.jpg"); */
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-attachment: fixed;
+
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.534);
+    margin: 100px;
+    /* padding: 100px; */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
+}
+
+.kiri {
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.kiri img {
+
+    width: 200px;
+}
+
+.form {
+    margin: 20px;
+}
+
+.kanan {
+    padding: 20px 40px 20px 20px;
+    width: 100%;
+}
+
+.kanan h1 {
+    text-align: center;
+}
+
+.form-isi input,
+select {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #2CBA4D;
+    border-radius: 5px;
+    padding: 10px 40px 10px 10px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.form-isi {
+    margin-top: 25px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.form-kelompok {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    background-color: #2CBA4D;
+    border: 0px solid black;
+    padding: 15px 30px;
+    margin: 20px 0px;
+    border-radius: 2px;
+    cursor: pointer;
+}
