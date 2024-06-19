@@ -1,6 +1,4 @@
-Berikut adalah versi yang lebih menarik dan rapi dari deskripsi proyek:
-
-# QuranFirst Landing Page
+# QuranFirst
 
 Web ini dibuat untuk tujuan pendaftaran dan promosi, dibangun menggunakan **Laravel** dan **Google Spreadsheet**.
 
